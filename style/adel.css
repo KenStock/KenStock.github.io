@@ -1,0 +1,569 @@
+@font-face {
+  font-family: "amikoregular";
+  src: url("assets/fonts/Amiko-Regular-webfont.eot");
+  src: url("assets/fonts/Amiko-Regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/Amiko-Regular-webfont.woff2") format("woff2"),
+    url("assets/fonts/Amiko-Regular-webfont.woff") format("woff"),
+    url("assets/fonts/Amiko-Regular-webfont.ttf") format("truetype"),
+    url("assets/fonts/Amiko-Regular-webfont.svg#amikoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DolceVita";
+  src: url("../assets/fonts/DolceVita/Dolce-Vita.woff") format("woff"),
+    url("../assets/fonts/DolceVita/Dolce-Vita.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DolceVita";
+  src: url("../assets/fonts/DolceVita/Dolce-Vita-Heavy-Bold.woff")
+      format("woff"),
+    url("../assets/fonts/DolceVita/Dolce Vita Heavy Bold.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: white;
+  font-family: "DolceVita", "Amatic SC", cursive;
+  font-size: 2vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272426;
+  height: 10vw;
+}
+/* Header */
+#header-logo {
+  /* flex: 1; */
+  height: 10vw;
+  width: 13vw;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  /* flex: 3; */
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav il {
+  font-size: 2.7vw;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #ceb8b6;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  /* border-bottom: 3px solid #760001; */
+}
+
+#button-contact {
+  padding: 5px;
+  border: 0.2vw solid #ceb8b6;
+  border-radius: 0.7vw;
+}
+
+/*Banière*/
+#banniere_image {
+  height: 50vw;
+  background: url("../assets/img/photo-couverture.jpg") no-repeat;
+  background-size: 100% auto;
+  margin: auto;
+}
+
+#banniere_background {
+  background-color: rgba(39, 36, 38, 0.6);
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banniere_titre {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  filter: alpha(opacity=100);
+}
+
+/*Introduction*/
+
+.text-description {
+  text-align: center;
+  font-size: 1.3em;
+  width: 80%;
+  font-weight: bold;
+}
+.article-container {
+  margin-top: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.picture-description {
+  margin-top: 4vw;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25vw;
+}
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #8b2c22;
+}
+a img:hover {
+  width: 65%;
+}
+
+.image_icon {
+  width: 60%;
+  /* height: auto;
+  display: block; */
+}
+
+/*My specialities*/
+article#my-specialities {
+  margin-top: 10vw;
+}
+
+#my-specialities h2 {
+  font-size: 3em;
+  color: white;
+}
+
+#my-specialities p {
+  color: white;
+}
+
+.item-mosaique-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7vw;
+  background-color: #272426;
+}
+.item-mosaique {
+  width: 50%;
+}
+.text-mosaique {
+  width: calc(50% - 5vw);
+  padding-left: 5vw;
+  padding-top: 2vw;
+}
+
+/*My soft skills*/
+article#soft-skills {
+  margin-top: 50vw;
+  color: white;
+  height: 60vw;
+  /* background-color: #272426;
+  border-radius: 5vw; */
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 23%;
+}
+.icon-container h3 {
+  color: #39a9e0;
+  margin-bottom: 0;
+}
+
+/*looking-for*/
+article#looking-for {
+  background-color: #ceb8b6;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#looking-for h2 {
+  width: 50%;
+}
+
+/*Trusted*/
+article#trusted {
+  background-color: #272426;
+  height: 60vw;
+  color: white;
+}
+.logo-ligne-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-icon {
+  width: 15vw;
+  padding: 2.5vw;
+}
+
+/*Footer*/
+footer {
+  padding-top: 60vw;
+  padding-bottom: 10vw;
+  display: flex;
+  align-items: center;
+  padding-left: 7vw;
+}
+.other-page-link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.7em;
+  padding-left: 2vw;
+  margin-left: 3vw;
+  height: 25vw;
+  border-left: 0.5vw solid;
+}
+.other-page-link a {
+  padding-bottom: 1.5vw;
+  padding-top: 1.5vw;
+  text-decoration: none;
+  font-weight: bold;
+  color: #272426;
+}
+
+.other-page-link a:hover {
+  color: #8b2c22;
+}
+
+.logo-footer {
+  width: 35vw;
+}
+
+/*General*/
+.button-blue {
+  height: 2vw;
+  width: 9vw;
+  margin-top: 5vw;
+  background-color: #39a9e0;
+  border-radius: 0.7vw;
+  padding: 1vw 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-blue a {
+  text-decoration: none;
+  color: white;
+}
+.button-blue a:hover {
+  font-weight: bold;
+}
+
+.blue-text {
+  color: #39a9e0;
+  font-weight: bold;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+#banniere_titre span {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+/*
+            PAGE 2: WHO AM I ?
+*/
+
+/* Introduction*/
+#whoIAm-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+#whoIAm-introduction h1 {
+  font-size: 2em;
+  color: white;
+}
+#whoIAm-introduction p {
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 2em;
+}
+.image_presentation {
+  width: 20vw;
+}
+#whoIAm-introduction span {
+  color: #39a9e0;
+}
+
+/*Education*/
+article#education {
+  background-color: #272426;
+  color: white;
+}
+#education h2 {
+  color: #39a9e0;
+  font-size: 4em;
+}
+#education h3 {
+  color: #39a9e0;
+  font-size: 2em;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+#education-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.education-element {
+  font-size: 1.2em;
+  margin-bottom: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80vw;
+}
+.education-element-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+.education-element p {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  line-height: 1.5em;
+  font-stretch: semi-condensed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.education-element p span {
+  font-weight: bold;
+  font-stretch: normal;
+  white-space: nowrap;
+}
+.education-place {
+  display: flex;
+  align-items: center;
+}
+.education-place p {
+  margin: 0;
+  font-stretch: normal;
+  font-weight: bold;
+  font-family: "DolceVita", "Amatic SC", cursive;
+}
+.education-place em {
+  font-size: 0.7em;
+  font-style: normal;
+}
+.blue-pointer {
+  margin-right: 2vw;
+  max-height: 3.5vw;
+  width: auto;
+}
+.education-element-img {
+  width: 15vw;
+}
+
+.education-uncertain {
+  color: #ceb8b6;
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 7vw;
+  margin-bottom: 0;
+}
+
+/*Internship*/
+article#internship {
+  background-color: #ceb8b6;
+  color: #272426;
+}
+#internship h2 {
+  color: #8b2c22;
+  font-size: 4em;
+}
+#internship h3 {
+  color: #8b2c22;
+  font-size: 1.5em;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.internship-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin-bottom: 10vw;
+}
+
+.internship-side-texticon {
+  display: flex;
+  height: 5vw;
+  overflow: visible;
+}
+.internship-element-img {
+  margin-top: 1.5vw;
+  height: 7vw;
+  width: auto;
+}
+
+.internship-text {
+  font-size: 1.3em;
+}
+.internship-text p {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-stretch: semi-condensed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.internship-place {
+  margin-top: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+.internship-place p {
+  margin: 0;
+  font-stretch: normal;
+  font-weight: bold;
+  font-family: "DolceVita", "Amatic SC", cursive;
+}
+.internship-place em {
+  font-size: 0.7em;
+  font-style: normal;
+}
+.side-image {
+  width: 30vw;
+}
+
+/*Abilites*/
+article#abilities {
+  background-color: #3e3438;
+  color: #ceb8b6;
+}
+#abilities h2 {
+  color: #e9964f;
+  font-size: 4em;
+}
+#abilities h3 {
+  color: #e9964f;
+  font-size: 2em;
+  margin-bottom: 1.5vw;
+}
+#abilities h4 {
+  font-size: 1.3em;
+  margin-top: 1.3vw;
+  margin-bottom: 0;
+}
+
+.abilities-category {
+  width: 80vw;
+  margin-bottom: 5vw;
+}
+.abilities-element {
+  margin-left: 2.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars-icon {
+  width: 20%;
+}
+
+/*Hobbies*/
+article#hobbies {
+  background-color: #272426;
+  color: white;
+  padding-bottom: 10vw;
+}
+#hobbies h2 {
+  font-size: 4em;
+  color: #39a9e0;
+}
+.hobbies-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.hobbies-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hobbies-img {
+  width: 15vw;
+}
+
+/**canvas**/
+#home-canvas,
+#whoAmI-canvas {
+  border: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+#side-bar {
+  margin-right: 2vw;
+  margin-left: 2vw;
+  border: 0;
+  z-index: 2;
+}
