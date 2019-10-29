@@ -1,4 +1,11 @@
-window.onload = main()
+window.onload = function() {
+  main()
+  var isCached =
+    performance.getEntriesByType("navigation")[0].transferSize === 0
+  if (!isCached) {
+    window.location.reload()
+  }
+}
 
 function main() {
   const canvas = document.querySelector("#home-canvas")
