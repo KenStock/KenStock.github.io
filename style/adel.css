@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:light&display=swap');
-
-p{
-  font-family: 'Roboto', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:thin&display=swap');
 
 @font-face {
   font-family: "amikoregular";
@@ -81,6 +77,7 @@ nav il {
 nav a {
   color: #ceb8b6;
   text-decoration: none;
+
 }
 
 nav a:hover {
@@ -126,6 +123,7 @@ nav a:hover {
   font-size: 1.3em;
   width: 80%;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 .article-container {
   margin-top: 5vw;
@@ -208,6 +206,9 @@ article#soft-skills {
 .icon-container h3 {
   color: #39a9e0;
   margin-bottom: 0;
+}
+.icon-container p{
+  font-family: 'Roboto', sans-serif; 
 }
 
 /*looking-for*/
@@ -308,7 +309,12 @@ footer {
 .blue-text {
   color: #39a9e0;
   font-weight: bold;
+  font-size: 1.5em;
 }
+.text-mosaique p{
+  font-family: 'Roboto', sans-serif; 
+}
+
 
 article {
   display: flex;
