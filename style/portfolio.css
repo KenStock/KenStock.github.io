@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:light&display=swap');
+
+#portfolioTitle{
+    width: 100%;
+    margin-top: 5vw;
+    margin-bottom: 20vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.headSection{
+    width: 100%;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+/* Poster section */
+
+#posterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vw;
+}
+
+.imageLine{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.sixLogoContainer{
+    margin-right: 3vw;
+}
+
+.horizontalImage{
+    width: 38vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.verticalImage{
+    width: 28vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+.logo{
+    width: 10vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.sixLogoImg{
+    width: 40vw;
+    margin-right: 1vw;
+    margin-left: 3vw;
+
+}
+
+/*Projects*/
+#projects{
+    padding-bottom: 20vw;
+}
+
+.projectContainer{
+    margin: 3vw;
+    padding: 3vw;
+    background-color: #272426;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgProjectContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+    width: 40 vw;
+}
+.imageProject{
+    object-fit: contain;
+    height: 20vw;
+    width: 30 vw;
+    margin-right: 5vw;
+}
+.projectInfoContainer{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.projectTitle{
+    font-size: 2em;
+    font-weight: bold;
+}
+.projectDescription{
+    font-family: 'Roboto', sans-serif;
+}
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.blueSkills{
+  height: 2vw;
+  width: auto;
+  background-color: #39a9e0;
+  border-radius: 0.7vw;
+  padding: 1vw 2vw;
+  margin: 0.5vw 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-lines: 1;
+}
+
+/*vidéo editing*/
+#videoEditing{
+    background-color: #272426;
+    color: white;
+    font-weight: initial;
+}
+
+.videoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoClip{
+    width: 90vw;
+    height: 50vw;
+    margin-bottom: 5vw;
+    background-color: #272426;
+}
+
+/*Canvas*/
+#portfolio-canvas{
+    border: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
