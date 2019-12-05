@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:light&display=swap');
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
 @font-face {
   font-family: "amikoregular";
   src: url("assets/fonts/Amiko-Regular-webfont.eot");
